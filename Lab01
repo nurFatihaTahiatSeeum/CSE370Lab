@@ -1,0 +1,11 @@
+To get started: 
+mysql -u root -p
+enter
+show databases;
+use lab_grades;
+select * from lab_grades;
+show tables;
+create table Lab_grades(student id char(4), name varchar(30), major char(3), section char(1), days_present int, project marks double, cgpa decimal(3,2), submission_date date); 
+show tables;
+describe lab_grades;
+Insert into lab_grades values ('s001','Abir','CS',1', 10, 18.5, 3.91, '2018-09-15'), ('s001','Abir','CS',1', 10, 18.5, 3.91, '2018-09-15'); 
